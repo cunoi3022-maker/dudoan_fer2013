@@ -1,0 +1,11 @@
+streamlit
+numpy>=1.23.0
+opencv-python-headless>=4.9.0.80
+scikit-image
+scikit-learn==1.2.2
+joblib
+tensorflow==2.12.0
+keras==2.12.0
+retina-face==0.0.13
+Pillow
+matplotlib
