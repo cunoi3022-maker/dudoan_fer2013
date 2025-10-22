@@ -40,10 +40,10 @@ def detect_faces_with_rotation(gray_image, angles=[0, 90, 180, 270]):
     return [], 0, gray_image  # không phát hiện khuôn mặt
 
 # === Tiêu đề ứng dụng ===
-st.title("📸 Ứng dụng nhận diện cảm xúc khuôn mặt (Fer - 2013)")
+st.title("Ứng dụng nhận diện cảm xúc khuôn mặt (Fer - 2013)")
 st.write("Tải ảnh khuôn mặt lên để mô hình dự đoán cảm xúc (tự xử lý ảnh bị xoay)")
 
-uploaded_file = st.file_uploader("📷 Chọn ảnh", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Chọn ảnh", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     # Đọc ảnh gốc
